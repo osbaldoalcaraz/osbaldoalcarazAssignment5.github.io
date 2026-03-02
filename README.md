@@ -32,3 +32,21 @@
 		
 	</body>
 </html>
+
+function BiggerButton() {
+      //document.getElementById("textID").innerHTML = alert("Hello, world!");
+      document.getElementById("textBox").style.fontSize = "24pt";
+}
+function FancyText() {
+      document.getElementById("textBox").style.fontWeight = "bold";
+      document.getElementById("textBox").style.color = "blue";
+      document.getElementById("textBox").style.textDecoration = "underline";
+}
+function NormalText() {
+      document.getElementById("textBox").style.fontWeight = "normal";
+      document.getElementById("textBox").style.color = "black";
+      document.getElementById("textBox").style.textDecoration = "none";
+}
+function MooButton() {
+     let text = document.getElementById("textBox").innerText;
+}
