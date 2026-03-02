@@ -1,20 +1,31 @@
 # osbaldoalcarazAssignment5.github.io
-<h1>My Cats</h1>
-<p>
-  My cats are very <strong>interesting</strong> creatures. 
-  Cats are generally considered
-  <a href="https://thevetdesk.com/pet-lifestyle/cats/how-intelligent-are-cats">intelligent.</a>
+	<head>
+		<title>Fancify Shamcify</title>
 
-  But you wouldn't think that if you saw my cats. 
-  They would do anything for food regardless if it puts them in danger. 
-  My oldest cat, <strong>Nieve</strong>, dipped her paw in my soup, not thinking
-  about how hot it was, and then ran away because she <strong>burned</strong> her paw. 
-  Such a weird 
-  <a href="https://www.thesprucepets.com/weird-cat-behaviors-explained-553972">behavior.</a>
+		<!-- link to your script file here -->
+		<script src="fancifymytext.js"></script>
+		
+	</head>
 
-  She was fine moments later, but what made her think that was gonna work out for her? 
-</p>
+	<body>
+		<h1>Fancify my Text</h1>
+		
 
-  <img
-  src="https://img.jagranjosh.com/images/2023/January/1712023/russian-blue-top-10-cat-breed.jpg"
-  alt="Looks like cat but isn't" width="700" height="500"/>
+		<!-- Your UI controls go here -->
+		 <Text> 
+			<label for="textBox" style="font-size:30px;">Text </label> 
+			<textarea rows = "4" cols="30" type="Text" id="textBox" name = "textBox"> </textarea> <br>
+
+			<label for="fancyBox" style="font-size:30px;">Fancify </label> 
+			<p id="textID"></p>
+			<button onclick="BiggerButton()">Bigger</button> <br>
+			<input type="radio" onchange="FancyText()" id="textBox" name="textFont" value="FF">
+			<label for="html">FancyShmancy</label><br>
+			<input type="radio" onchange="NormalText()" id="textBox" name="textFont" value="BB">
+			<label for="css">BoringBetty</label><br>
+
+			<label for="fancyBox" style="font-size:30px;">Moo </label> <br>
+			<button onclick="MooButton()">Moo</button> <br>
+			<Text>
+		
+	</body>
